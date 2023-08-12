@@ -12,52 +12,82 @@
 </head>
 <body>
     <header>
-        <!-- Add nav bar -->
-        <!-- <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button> -->
-        <!-- Add logo in left corner -->
       
         <nav class="main-nav">
-            <img class="logo" src="img/Logo.png" alt="Max's WoodFired Pizza">
-            <div class="main-nav__container">
-                <a href="#" class="nav-item">Home</a>
-                <a href="#" class="nav-item">Our Story</a>
-                <a href="#" class="nav-item">Menu</a>
-            </div>
+            <img class="logo" src="img/White-Pizza.png" alt="Max's WoodFired Pizza">
+            <ul class="nav__links">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#our-story" class="nav-item">Our Story</a></li>
+                <li><a href="#menu" class="nav-item">Menu</a></li>
+                <li><a href="#hours-of-operation" class="nav-item">Hours</a></li>
+                <li><a href="#location" class="nav-item">Location</a></li>
+                <button class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </button>
+            </ul>
+             
+            <!-- <div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger">
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                    </span>
+                </button>
+            </div> -->
         </nav>
-        
     </header>
 
     <!-- MAIN -->
-    <section class="main" id="home">
-            
-            <!--Add photo here-->
-                <img class="main-pizza" src="img/main-pizza.jpg" alt="Pizza">
-                <h2 class="authentic-heading">Best Authentic Pizza in Town</h2>
-           
+    <section class="centered-container">
+        <img class="main-pizza" src="img/main-pizza.jpg" alt="Pizza">
+        <h2 id="centered-heading" class="authentic-heading">Best Authentic Pizza<br> in Town</br></h2>
+        <!-- <p>Unleashing the Magic of Handcrafted Gourmet Pizzas</p> -->
     </section>
-
 
     <!-- Our Story Section -->
-    <section id="our-story">
+    <!-- <main class="main"> -->
+    
         
+    <section id="our-story">
+        <h2 class="our_story_title">Our Story</h2>
+            <p>In the heart of the city, Max's Pizza was born from a single vision: to create the most authentic and mouthwatering pies, reminiscent of the old-world charm of Italian pizzerias. Founded in 1998 by Max Ricci, a third-generation pizza maestro, our eatery proudly kneads tradition into every crust, sources the freshest local ingredients, and fires up each pizza in a classic wood-burning oven. Our dedication to the craft has not only given life to flavors that transport you straight to Naples, but has also cultivated a community where families and friends gather to celebrate life's simplest yet most delectable moments. Welcome to Max's, where every slice tells a story.</p>
     </section>
+
+    <img class="max_photo" src="img/max-chef.jpg" alt="Max preparing the pizza dough">
 
     <!-- Menu -->
-    <section id="menu">
 
+    <section id="menu">
+        <h2>Pizzas</h2>
+        <p>At Max's Pizza, every pie is a symphony of flavors, crafted meticulously from age-old family recipes and baked to perfection in a traditional wood-burning oven. Each slice boasts a harmonious blend of fresh, locally-sourced ingredients, cradled atop a crispy yet tender crust that's rich in history and taste. Dive into a Max's masterpiece, and experience a delightful journey from the heart of Naples to your very plate.
+        </p>
     </section>
+
 
     <!-- Hours -->
-    <section id="hours">
+    <section id="hours-of-operation">
+    <h2 class="hours">Hours of Operation</h2>
+    <ul>
+        <li>Monday: 11:00 AM - 10:00 PM</li>
+        <li>Tuesday: 11:00 AM - 10:00 PM</li>
+        <li>Wednesday: 11:00 AM - 10:00 PM</li>
+        <li>Thursday: 11:00 AM - 10:00 PM</li>
+        <li>Friday: 11:00 AM - 11:00 PM</li>
+        <li>Saturday: 11:00 AM - 11:00 PM</li>
+        <li>Sunday: 12:00 PM - 9:00 PM</li>
+    </ul>
+</section>
 
-    </section>
 
     <!-- Location -->
     <section id="location">
-
+        <h2>How to find Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.887415371654!2d-77.55036342443343!3d34.42961477301713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a9a290e3398a7f%3A0xefdd66d11cfbb14!2sMax&#39;s%20Pizza!5e0!3m2!1sen!2sus!4v1691803870625!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
+<!-- </main> -->
 
     <!-- FOOTER -->
     <footer id="footer">
