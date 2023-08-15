@@ -15,12 +15,6 @@ body {
     background-color: #db2e2b;
 }
 
-h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 2.25rem;
-}
-
 .centered-container {
     position: relative;
     display: flex;
@@ -34,6 +28,7 @@ h2 {
     top: 40%;
     left: 60%;
     transform: translate(-30%, -30%);
+    text-align: center;
     color: white;
     text-shadow: 1px 1px 2px black;
     font-size: 80px;
@@ -44,16 +39,32 @@ h2 {
 }
 
 p {
-    /* color: #fff; */
     font-size: 1.5rem;
 }
 
-header {
+/* *****  NAV BAR  ***** */
+.logo {
+    height: 100px;
+    padding-bottom: .32rem;
+    padding-left: 1rem;
+}
+
+.main-nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    box-shadow: 0 20px 10px -8px #000000;  
 }
 
+.nav__links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding: 0 2rem;
+    flex-direction: row;
+}
 
 a {
     font-size: 1.25rem;
@@ -63,12 +74,17 @@ a {
 }
 
 li {
-   list-style-type: none;
+    list-style-type: none;
 }
 
 
-
 /* *****  SECTIONS ***** */
+.main-pizza {
+    width: 100vw;
+    height: 100vh;
+    opacity: 70%;
+}
+
 #our-story {
     display: flex;
     flex-direction: column;
@@ -80,9 +96,11 @@ li {
     color: rgb(61, 60, 60);
 }
 
+/* The title needed color */
 .our_story_title {
     color: rgb(61, 60, 60);
 }
+/* To make the photo responsive and full-width */
 .max_photo {
    max-width: 100%;
 }
@@ -109,57 +127,57 @@ li {
     color: #e17f42;
 }
 
-.hours {
-    color:#e17f42;
-}
 
 #location {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
     background-color: #1b5240;
+    color:#fff;
+    font-size: 1.5rem;
 }
 
-.main-pizza {
-    width: 100vw;
-    height: 100vh;
-    opacity: 80%;
-}
-
-
-.logo {
-    height: 100px;
-    padding-bottom: .32rem;
-    padding-left: 1rem;
-}
-
-
-.main-nav {
+/* This will put the contact info on top of map in responsive mode */
+.container {
     display: flex;
+    flex-wrap: wrap;
+    color:#fff;
+    padding-top: 2rem;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    box-shadow: 0 20px 10px -8px #000000;
-    
 }
 
-.nav__links {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100vw;
-    padding: 0 2rem;
-    flex-direction: row;
-}
-
-.main {
-    margin: 0 4rem;;
+.contact, .map {
+    margin: 0 3rem;
+    margin-right: 5rem;
     padding: 2rem;
 }
 
+/* Social Media Icons */
+
+.social-media-icons {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.facebook, .instagram, .twitter {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 
 .hamburger {
     display: none;
