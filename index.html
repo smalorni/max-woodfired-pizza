@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Max's WoodFired Pizza</title>
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> -->
         <link rel="stylesheet" href="main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,30 +12,22 @@
 </head>
 <body>
     <header>
-        <nav class="main-nav">
+        <nav class="nav-menu">
             <img class="logo" src="img/White-Pizza.png" alt="Max's WoodFired Pizza">
+            <button class="hamburger">
+                <span class="hamburger_line"></span>
+                <span class="hamburger_line"></span>
+                <span class="hamburger_line"></span>
+            </button>
             <ul class="nav__links">
-                <li><a href="#home" class="nav-item">Home</a></li>
                 <li><a href="#our-story" class="nav-item">Our Story</a></li>
                 <li><a href="#menu" class="nav-item">Menu</a></li>
                 <li><a href="#hours-of-operation" class="nav-item">Hours</a></li>
                 <li><a href="#location" class="nav-item">Location</a></li>
-                <button class="hamburger">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </button>
             </ul>
-            <!-- <div>
-                <button class="nav-toggle" aria-label="toggle navigation">
-                    <span class="hamburger">
-                        <span class="hamburger__line"></span>
-                        <span class="hamburger__line"></span>
-                        <span class="hamburger__line"></span>
-                    </span>
-                </button>
-            </div> -->
+            
         </nav>
+        <div class="overlay"></div>
     </header>
 
     <!-- MAIN -->
@@ -57,40 +48,39 @@
 
     <!-- Pizza Menu Section -->
     <section id="menu">
-        <h2>Pizzas</h2>
             <p>At Max's Pizza, every pie is a symphony of flavors, crafted meticulously from age-old family recipes and baked to perfection in a traditional wood-burning oven. Each slice boasts a harmonious blend of fresh, locally-sourced ingredients, cradled atop a crispy yet tender crust that's rich in history and taste. Dive into a Max's masterpiece, and experience a delightful journey from the heart of Naples to your very plate.</p>
+            
             <div class="menu-container">
                 <div class="menu-item">
                     <h3>Pepperoni Passion</h3>
                     <p>Mozzarella, parmesan, red spicey sauce with mini cup and char pepperoni</p>
-                    <p>SM $10.99 | LG $13.99</p>
-                    
+                        <p>SM $10.99 | LG $13.99</p>
                 </div>
                 <div class="menu-item">
                     <h3>Cheese Lollapalooza</h3>
                     <p>Wisconsin brick cheese, feta, mozzarella, parmesan, and ricotta cheese</p>
-                    <p>SM $11.99 | LG $12.99 </p>
+                        <p>SM $12.99 | LG $14.99</p>
                 </div>
                 <div class="menu-item">
                     <h3>Carnivore Feast</h3>
                     <p>Cup and char pepperoni, Italian sausage, maple bacon, mozzarella</p>
-                    <p>SM $15.99 | LG $17.99</p>
+                        <p>SM $15.99 | LG $17.99</p>
                 </div>
                 <div class="menu-item">
                     
                     <h3>Veggie Deluxe </h3>
                     <p>Black truffle mushrooms, bell peppers, red onion, tomato, mozzarella</p>
-                    <p>SM $12.99 | LG $ 14.99</p>
+                        <p>SM $13.99 | LG $14.99</p>
                 </div>
                 <div class="menu-item">
                     <h3>Spicy Diablo</h3>
                     <p>Spicy sausage, jalapenos, red pepper flakes, mozzarella</p>
-                    <p>SM $15.99 | LG $18.99</p>
+                        <p>SM $15.99 | LG $18.99</p>
                 </div>
                 <div class="menu-item">
                     <h3>Chicken Galore</h3>
                     <p>Grilled chicken, mozzarella, cherry tomatoes, parmesan, red onion</p>
-                    <p>SM $14.99 | LG $16.99</p>
+                        <p>SM $14.99 | LG $16.99</p>
                 </div>
             </div>
     </section>
@@ -114,10 +104,12 @@
         <h2>How To Find Us</h2>
             <div class="container">
                 <div class="contact">
-                    <p>602 Roland Avenue A<br>
-                    Surf City, NC 28445</p>
-                    <p>(910) 728-3158</p>
-                    <p>maxwoodfiredpizza@gmail.com</p>
+                    <ul>
+                    <li>602 Roland Avenue A<br>
+                    Surf City, NC 28445</li>
+                    <li>(910) 728-3158</li>
+                    <li>maxwoodfiredpizza@gmail.com</li>
+                    </ul>
                     <div class="social-media-icons">
                         <img class="facebook" src="img/fb.png" alt="Facebook icon">
                         <img class="instagram" src="img/instagram.png" alt="Instagram icon">
@@ -125,7 +117,7 @@
                     </div>
                 </div>
                 <div>
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.887415371654!2d-77.55036342443343!3d34.42961477301713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a9a290e3398a7f%3A0xefdd66d11cfbb14!2sMax&#39;s%20Pizza!5e0!3m2!1sen!2sus!4v1691803870625!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" aria-hidden="false" tabindex="0" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.887415371654!2d-77.55036342443343!3d34.42961477301713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89a9a290e3398a7f%3A0xefdd66d11cfbb14!2sMax&#39;s%20Pizza!5e0!3m2!1sen!2sus!4v1691803870625!5m2!1sen!2sus" width="500" height="450" style="border:0;" aria-hidden="false"></iframe>
                 </div>
             </div>
     </section>
@@ -136,7 +128,7 @@
     <footer id="footer">
         <span>&#169; 2023 Max's Woodfired Pizza. All Rights Reserved.</span>
     </footer>
-    
-    
+    <!--add in javascript file for functionality-->
+    <script src="main.js"></script>
 </body>
 </html>
