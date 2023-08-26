@@ -1,8 +1,11 @@
 # Max's Wood-Fired Pizza
 
-## Project Description:
-### Simple website for a local Italian pizzeria
+### Project Description:
+Developed and designed a website for an Italian pizzeria, including the logo. 
 
-## 
-* Mobile Responsive
-* 
+Tech Stack:
+* HTML
+* CSS
+* Javascript
+ 
+
