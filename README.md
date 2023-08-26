@@ -11,12 +11,13 @@ Simple website for an Italian pizzeria. Designed logo.
 ## Features:
 * Mobile responsive
 * Mobile drop-down nav bar opens and closes
+* Google map included
 
 ## Purpose of Project:
-To develop a functional website that can be view on a mobile or desktop device. Practice CSS more in depth including animation.
+To develop a functional website that can be viewed on a mobile or desktop device. Practice CSS more in depth including animation.
 
 ## Contributing
-Thank you to James Scott - Contributed assistance with solving technical issues when arise.
+Thank you to James Scott - Contributed assistance with solving technical issues.
 
 https://github.com/jsa-codes
 
