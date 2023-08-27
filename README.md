@@ -19,7 +19,7 @@ Simple website for an Italian pizzeria. Designed logo.
 To develop a functional website that can be viewed on a mobile or desktop device. Practice CSS more in depth including animation.
 
 ## Contributing
-Thank you to James Scott - Assisted with solving coding and technical issues.
+Thank you to James Scott who helped with solving coding issues. 
 
 https://github.com/jsa-codes
 
